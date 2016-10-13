@@ -1,137 +1,15 @@
-@media all and (max-width: 400px) {
-  html {
+html {
     height: 100%;
-  }
-  body {
-    text-align: center;
-    background-color: black;
-    font-family: sans-serif;
-    height: 100%;
-    padding:30px;
-  }
-  .head {
-    background-image: url("http://www.sculpt.com/pictures/ArchMod/7865163.gif");
-    color: white;
-    padding: 8px;
-    border: solid #521E1E 5px;
-    border-radius: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  #container {
-    display: block;
-    margin: 0 auto;
-    padding-top: 80px;
-    padding-left: 70px;
-    border: solid red 5px;
-    border-radius: 10px;
-  }
-  .animal {
-    float: left;
-    width: 31%;
-    padding:.75em;
-    border: solid grey;
-    border-width: 0px .5px 0px .5px;
-    text-align: center;
-    background-color: lightgrey;
-    height: 50%;
-    border: solid lightgrey 5px;
-    border-radius: 10px;
-    margin: 5px;
-  }
-  .animal img {
-    height: 15em;
-    width:26em;
-    display: block;
-    margin: 0 auto;
-    margin-top: 2em;
-  }
-  .animal h3 {
-    font-family: fantasy;
-    font-size: 200%;
-    color: tan;
-  }
-  .animal p {
-    text-align: justify;
-  }
-  .species {
-    font-weight: bold;
-    color:darkred
-  }
-  .about {
-    background-color: lightgrey;
-  }
-
 }
-@media all and (max-width: 1000px) {
-  body {
-    text-align: center;
-    background-color: blue;
-    font-family: sans-serif;
-    height: 100%;
-    padding:30px;
-  }
-  .head {
-    background-image: url("http://www.sculpt.com/pictures/ArchMod/7865163.gif");
-    color: white;
-    padding: 8px;
-    border: solid red 5px;
-    border-radius: 10px;
-    margin-left: 5px;
-    margin-right: 5px;ß
-  }
-  #container {
-    display: block;
-    margin: 0 auto;
-    padding-top: 80px;
-    padding-left: 70px;
-    border: solid grey 5px;
-    border-radius: 10px;
-  }
-  .animal {
-    float: left;
-    width: 31%;
-    padding:.75em;
-    border: solid grey;
-    border-width: 0px .5px 0px .5px;
-    text-align: center;
-    background-color: lightgrey;
-    height: 50%;
-    border: solid lightgrey 5px;
-    border-radius: 10px;
-    margin: 5px;
-  }
-  .animal img {
-    height: 15em;
-    width:26em;
-    display: block;
-    margin: 0 auto;
-    margin-top: 2em;
-  }
-  .animal h3 {
-    font-family: fantasy;
-    font-size: 200%;
-    color: tan;
-  }
-  .animal p {
-    text-align: justify;
-  }
-  .species {
-    font-weight: bold;
-    color:darkred
-  }
-  .about {
-    background-color: lightgrey;
-  }
 
-}
 body {
   text-align: center;
-  background-color: #32302B;
+  background-color: yellow;
   font-family: sans-serif;
   height: 100%;
   padding:30px;
 }
+
 .head {
   background-image: url("http://www.sculpt.com/pictures/ArchMod/7865163.gif");
   color: white;
@@ -141,17 +19,10 @@ body {
   margin-left: 5px;
   margin-right: 5px;
 }
-#container {
-  display: block;
-  margin: 0 auto;
-  padding-top: 80px;
-  padding-left: 70px;
-  border: solid grey 5px;
-  border-radius: 10px;
-}
+
 .animal {
   float: left;
-  width: 31%;
+  width: 29%;
   padding:.75em;
   border: solid grey;
   border-width: 0px .5px 0px .5px;
@@ -160,8 +31,8 @@ body {
   height: 50%;
   border: solid lightgrey 5px;
   border-radius: 10px;
-  margin: 5px;
 }
+
 .animal img {
   height: 15em;
   width:26em;
@@ -169,18 +40,28 @@ body {
   margin: 0 auto;
   margin-top: 2em;
 }
+
 .animal h3 {
   font-family: fantasy;
   font-size: 200%;
   color: tan;
 }
+
 .animal p {
   text-align: justify;
 }
+
 .species {
   font-weight: bold;
-  color:darkred
+  color: darkred;
 }
+
 .about {
   background-color: lightgrey;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-color: black;
+  }
 }
